@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <title>My Portfolio - Showcasing My Work and Skills</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <h2>
+        <i class="fa-solid fa-code"></i>
+        <span>Coding <br>Daily </span>
+      </h2>
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-xmark"></i>
+      <ul>
+        <li>
+          <a href="#welcome-section">
+            <i class="fa-solid fa-house"></i>Home </a>
+        </li>
+        <li>
+          <a href="#about-section">
+            <i class="fa-solid fa-address-card"></i>About </a>
+        </li>
+        <li>
+          <a href="#services-section">
+            <i class="fa-solid fa-cogs"></i>Services </a>
+        </li>
+        <li>
+          <a href="#projects-section">
+            <i class="fa-solid fa-diagram-project"></i>Projects </a>
+        </li>
+        <li>
+          <a href="#team-section">
+            <i class="fa-solid fa-users"></i>Team</a>
+        </li>
+        <li>
+          <a href="#contact-section">
+            <i class="fa-solid fa-phone"></i>Contact </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <div class="container">
+        <div class="text">
+          <h1>
+            <span>Hey I am <br>
+            </span>
+            <span>Salman Ben Omar</span>
+            <br>
+            <span>a web developer</span>
+          </h1>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+          <a href="#" id="download-cv-btn">DOWNLOAD CV</a>
+        </div>
+        <div class="img-profile-div">
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: gold"></stop>
+                <stop offset="100%" style="stop-color:#3a86ff"></stop>
+              </linearGradient>
+            </defs>
+            <path id="blob" fill="url(#gradient)">
+              <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M460,294.5Q464,339,435,372.5Q406,406,370,429Q334,452,292,465.5Q250,479,207.5,466.5Q165,454,131.5,428Q98,402,80,365Q62,328,38,289Q14,250,33.5,209.5Q53,169,76,134Q99,99,132.5,73Q166,47,208,24.5Q250,2,297,12.5Q344,23,383,50.5Q422,78,447,118Q472,158,464,204Q456,250,460,294.5Z;
+                  M483,296Q472,342,436,371Q400,400,372.5,439.5Q345,479,297.5,474Q250,469,209,458.5Q168,448,120.5,437.5Q73,427,62,379.5Q51,332,27.5,291Q4,250,20,205.5Q36,161,71,133.5Q106,106,133,69.5Q160,33,205,21Q250,9,293.5,24.5Q337,40,375,63.5Q413,87,428.5,128.5Q444,170,469,210Q494,250,483,296Z;
+                  M481.5,296.5Q475,343,438.5,372.5Q402,402,366.5,424.5Q331,447,290.5,457Q250,467,203,472Q156,477,126,440.5Q96,404,77.5,366.5Q59,329,36,289.5Q13,250,18,203Q23,156,64,130.5Q105,105,133,70.5Q161,36,205.5,33.5Q250,31,296.5,29Q343,27,384.5,50.5Q426,74,436,121.5Q446,169,467,209.5Q488,250,481.5,296.5Z;
+                  M475,294.5Q466,339,435.5,372Q405,405,373,438Q341,471,295.5,481Q250,491,205,479Q160,467,128,435.5Q96,404,63.5,372.5Q31,341,35,295.5Q39,250,34,204.5Q29,159,52,117Q75,75,117,53Q159,31,204.5,16.5Q250,2,293.5,21Q337,40,371.5,67Q406,94,443.5,124Q481,154,482.5,202Q484,250,475,294.5Z;
+                  M482.5,302.5Q468,355,422.5,382Q377,409,338.5,438Q300,467,250.5,466Q201,465,161,438.5Q121,412,93,375.5Q65,339,57,294.5Q49,250,39.5,197Q30,144,74,114.5Q118,85,160.5,63.5Q203,42,251,38Q299,34,349.5,47.5Q400,61,428,106Q456,151,476.5,200.5Q497,250,482.5,302.5Z;
+                  M489,287.5Q481,325,448,347.5Q415,370,398,400Q381,430,349.5,445Q318,460,284,458.5Q250,457,218.5,451Q187,445,159.5,429Q132,413,92.5,403Q53,393,51,354Q49,315,43,282.5Q37,250,38,216Q39,182,47,145Q55,108,85,86.5Q115,65,150.5,59Q186,53,218,32.5Q250,12,282,32Q314,52,352.5,54Q391,56,416,83.5Q441,111,446.5,147.5Q452,184,474.5,217Q497,250,489,287.5Z"></animate>
+            </path>
+          </svg>
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: gold"></stop>
+                <stop offset="100%" style="stop-color:#3a86ff"></stop>
+              </linearGradient>
+            </defs>
+            <path id="blob" fill="url(#gradient)">
+              <animate attributeName="d" dur="10000ms" repeatCount="indefinite" values="M460,294.5Q464,339,435,372.5Q406,406,370,429Q334,452,292,465.5Q250,479,207.5,466.5Q165,454,131.5,428Q98,402,80,365Q62,328,38,289Q14,250,33.5,209.5Q53,169,76,134Q99,99,132.5,73Q166,47,208,24.5Q250,2,297,12.5Q344,23,383,50.5Q422,78,447,118Q472,158,464,204Q456,250,460,294.5Z;
+                  M483,296Q472,342,436,371Q400,400,372.5,439.5Q345,479,297.5,474Q250,469,209,458.5Q168,448,120.5,437.5Q73,427,62,379.5Q51,332,27.5,291Q4,250,20,205.5Q36,161,71,133.5Q106,106,133,69.5Q160,33,205,21Q250,9,293.5,24.5Q337,40,375,63.5Q413,87,428.5,128.5Q444,170,469,210Q494,250,483,296Z;
+                  M481.5,296.5Q475,343,438.5,372.5Q402,402,366.5,424.5Q331,447,290.5,457Q250,467,203,472Q156,477,126,440.5Q96,404,77.5,366.5Q59,329,36,289.5Q13,250,18,203Q23,156,64,130.5Q105,105,133,70.5Q161,36,205.5,33.5Q250,31,296.5,29Q343,27,384.5,50.5Q426,74,436,121.5Q446,169,467,209.5Q488,250,481.5,296.5Z;
+                  M475,294.5Q466,339,435.5,372Q405,405,373,438Q341,471,295.5,481Q250,491,205,479Q160,467,128,435.5Q96,404,63.5,372.5Q31,341,35,295.5Q39,250,34,204.5Q29,159,52,117Q75,75,117,53Q159,31,204.5,16.5Q250,2,293.5,21Q337,40,371.5,67Q406,94,443.5,124Q481,154,482.5,202Q484,250,475,294.5Z;
+                  M482.5,302.5Q468,355,422.5,382Q377,409,338.5,438Q300,467,250.5,466Q201,465,161,438.5Q121,412,93,375.5Q65,339,57,294.5Q49,250,39.5,197Q30,144,74,114.5Q118,85,160.5,63.5Q203,42,251,38Q299,34,349.5,47.5Q400,61,428,106Q456,151,476.5,200.5Q497,250,482.5,302.5Z;
+                  M489,287.5Q481,325,448,347.5Q415,370,398,400Q381,430,349.5,445Q318,460,284,458.5Q250,457,218.5,451Q187,445,159.5,429Q132,413,92.5,403Q53,393,51,354Q49,315,43,282.5Q37,250,38,216Q39,182,47,145Q55,108,85,86.5Q115,65,150.5,59Q186,53,218,32.5Q250,12,282,32Q314,52,352.5,54Q391,56,416,83.5Q441,111,446.5,147.5Q452,184,474.5,217Q497,250,489,287.5Z"></animate>
+            </path>
+          </svg>
+          <img src="img/profile.png" alt="image">
+        </div>
+      </div>
+      <div id="statistics">
+        <div>
+          <h4>+3k</h4>
+          <p>Happy Customer</p>
+        </div>
+        <div>
+          <h4>+2k</h4>
+          <p>Ticket Solved</p>
+        </div>
+        <div>
+          <h4>9/10</h4>
+          <p>Average Rating</p>
+        </div>
+      </div>
+    </section>
+    <section id="about-section">
+      <div class="img-div">
+        <img src="img/about-img.jpg" alt="">
+      </div>
+      <div class="text">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quisquam impedit cumque architecto iste nostrum aliquam sapiente optio, ad numquam pariatur fugiat hic quae atque nesciunt, accusamus dolorem magni at.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, ad! Quibusdam, aut minima odio tempore soluta reiciendis asperiores laborum aliquam eveniet facere! Iusto porro non eaque, esse illo ipsum necessitatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sapiente, temporibus numquam illo commodi delectus ad voluptas eveniet modi nihil minus nisi placeat tenetur, rem, nemo voluptate repellendus veritatis. Aliquid?</p>
+      </div>
+    </section>
+    <section id="services-section">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/service1.png" alt="service1">
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corporis quidem? Dol ores, quo quidemuibusdam voluptatibus! </p>
+          <div class="div-link">
+            <a href="#">LEARN MORE</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/service2.png" alt="service2">
+          <h3>UX/UI Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corporis quidem? Dol ores, qum voluptatibus! </p>
+          <div class="div-link">
+            <a href="#">LEARN MORE</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/service3.png" alt="service3">
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, corporis quidem? Dol ores, quo quidem! dam voluptatibus! </p>
+          <div class="div-link">
+            <a href="#">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects-section">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <a href="#">SEE PROJECT</a>
+          <img src="img/project1.png" alt="project1">
+          <h3>Map Data Across The Globe</h3>
+        </div>
+        <div class="card">
+          <a href="#">SEE PROJECT</a>
+          <img src="img/project2.png" alt="project2">
+          <h3>Wikipeida Viewer</h3>
+        </div>
+        <div class="card">
+          <a href="#">SEE PROJECT</a>
+          <img src="img/project3.png" alt="project3">
+          <h3>Tic Tac Toe Game</h3>
+        </div>
+        <div class="card">
+          <a href="#">SEE PROJECT</a>
+          <img src="img/project4.png" alt="project4">
+          <h3>JavaScript Calculator</h3>
+        </div>
+        <div class="card">
+          <a href="#">SEE PROJECT</a>
+          <img src="img/project5.png" alt="project5">
+          <h3>Random Quote Machine</h3>
+        </div>
+        <div class="card">
+          <a href="#">SEE PROJECT</a>
+          <img src="img/project6.png" alt="project6">
+          <h3>Tribute Page</h3>
+        </div>
+      </div>
+    </section>
+    <section id="team-section">
+      <h2>Clients' Opinions</h2>
+      <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                  <img src="img/team1.png" alt="">
+                  <h3>John Doe</h3>
+                  <h4>Frontend Developer</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team2.png" alt="">
+                  <h3>Jane Smith</h3>
+                  <h4>Backend Developer</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team3.png" alt="">
+                  <h3>Michael Johnson</h3>
+                  <h4>UI/UX Designer</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team4.png" alt="">
+                  <h3>Sarah Thompson</h3>
+                  <h4>Full Stack Developer</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team5.png" alt="">
+                  <h3>David Wilson</h3>
+                  <h4>Software Engineer</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team6.png" alt="">
+                  <h3>Emily Davis</h3>
+                  <h4>Mobile App Developer</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team7.png" alt="">
+                  <h3>Robert Lee</h3>
+                  <h4>Data Scientist</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team8.png" alt="">
+                  <h3>Alice Brown</h3>
+                  <h4>Cloud Architect</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="img/team9.png" alt="">
+                  <h3>Thomas Anderson</h3>
+                  <h4>DevOps Engineer</h4>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" id="profile-link" target="_blank">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </div>
+                </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+      </div>
+    </section>
+    <section id="contact-section">
+      <h2>Contact</h2>
+      <form action="#" id="form">
+        <div class="name-fields">
+          <div>
+            <input type="text" id="first-name" name="" placeholder="first name" id="">
+          </div>
+          <div>
+            <input type="text" id="last-name" name="" placeholder="last name" id="">
+          </div>
+        </div>
+        <div>
+          <input type="email" id="email" name="" placeholder="email" id="">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="write your message here"></textarea>
+        <button type="submit" id="submit">submit</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
