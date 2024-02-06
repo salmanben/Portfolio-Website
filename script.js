@@ -8,7 +8,7 @@ var aboutText = document.querySelector("#about-section .text")
 var aboutImg = document.querySelector("#about-section .img-div")
 var cardsServices = document.querySelectorAll("#services-section .cards .card >*");
 
-console.log(cardsServices)
+
 var cardsprojects = document.querySelectorAll(" #projects-section .cards .card")
 var contactForm = document.querySelector("form")
 var slides = document.querySelector(".mySwiper")
