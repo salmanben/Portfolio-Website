@@ -726,6 +726,10 @@ textarea {
   .name-fields div {
     width: 100%
   }
+  
+  input, textarea{
+    outline:none
+  }
 }
 
 footer {
